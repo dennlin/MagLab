@@ -1,0 +1,72 @@
+/*
+ * react-calendar-heatmap styles
+ *
+ * All of the styles in this file are optional and configurable!
+ * The github and gitlab color scales are provided for reference.
+ */
+
+.react-calendar-heatmap text {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+    font-size: 5px;
+}
+
+.react-calendar-heatmap rect:hover {
+    stroke: #555;
+    stroke-width: 1px;
+}
+
+/*
+   * Colours from GRADIENT in AppV2
+   */
+
+.react-calendar-heatmap .color-empty {
+    fill: white;
+}
+
+.react-calendar-heatmap .color-filled {
+    fill: red;
+}
+
+.react-calendar-heatmap .color-scale-0 {
+    fill: rgb(0, 42, 255);
+}
+
+.react-calendar-heatmap .color-scale-1 {
+    fill: rgb(133, 0, 231);
+}
+
+.react-calendar-heatmap .color-scale-2 {
+    fill: rgb(180, 0, 204);
+}
+
+.react-calendar-heatmap .color-scale-3 {
+    fill: rgb(211, 0, 175);
+}
+
+.react-calendar-heatmap .color-scale-4 {
+    fill: rgb(232, 0, 146);
+}
+
+.react-calendar-heatmap .color-scale-5 {
+    fill: rgb(244, 0, 118);
+}
+
+.react-calendar-heatmap .color-scale-6 {
+    fill: rgb(250, 0, 91);
+}
+
+.react-calendar-heatmap .color-scale-7 {
+    fill: rgb(250, 0, 66);
+}
+
+.react-calendar-heatmap .color-scale-8 {
+    fill: rgb(246, 0, 42);
+}
+
+.react-calendar-heatmap .color-scale-9 {
+    fill: rgb(238, 13, 13);
+}
